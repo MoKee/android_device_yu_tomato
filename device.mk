@@ -60,9 +60,9 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera
 
-# CMHW JNI
+# MKHW JNI
 PRODUCT_PACKAGES += \
-    libjni_cmhw
+    libjni_mkhw
 
 # GPS
 PRODUCT_PACKAGES += \
