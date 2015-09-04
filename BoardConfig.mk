@@ -23,6 +23,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8916-amss
 TARGET_KERNEL_CONFIG := mokee_tomato-64_defconfig
 
 # Properties
