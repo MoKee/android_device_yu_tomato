@@ -23,7 +23,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_tomato-64_defconfig
+TARGET_KERNEL_CONFIG := mokee_tomato-64_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
@@ -36,8 +36,8 @@ BOARD_CAMERA_SENSORS := imx135_cp8675 imx214_cp8675 ov5648_cp8675
 TARGET_USE_VENDOR_CAMERA_EXT := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CMHW
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw/src
+# MKHW
+BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/mkhw/src
 TARGET_POWER_SET_FEATURE_LIB := libpower_set_feature_tomato
 
 # CPU
