@@ -169,7 +169,7 @@ public class KeyHandler implements DeviceKeyHandler {
                 doHapticFeedback();
                 mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
 
-                Intent intent = new Intent(cyanogenmod.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
+                Intent intent = new Intent(mokee.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
                 mContext.sendBroadcast(intent, Manifest.permission.STATUS_BAR_SERVICE);
                 break;
             case GESTURE_SLIDE_O_SCANCODE:
